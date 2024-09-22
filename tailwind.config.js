@@ -21,7 +21,9 @@ export default {
         VeryLightGray: "hsl(0, 0%, 98%)",
       },
       backgroundImage : {
-        "navMenu" : "url('./src/assets/images/bg-pattern-mobile-nav.svg')"
+        "navMenu" : "url('./src/assets/images/bg-pattern-mobile-nav.svg')",
+        "mobileIntroLeft": "url('./src/assets/images/bg-pattern-intro-left-mobile.svg')",
+        "mobileIntroRight": "url('./src/assets/images/bg-pattern-intro-right-mobile.svg')",
       }
     }
   },

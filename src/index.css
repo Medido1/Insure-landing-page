@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-mobileIntro {
+  background-image: 
+  url('./assets/images/bg-pattern-intro-left-mobile.svg'), url('./assets/images/bg-pattern-intro-right-mobile.svg');
+  background-position: left top, right 340%;
+  background-repeat: no-repeat, no-repeat;
+}
