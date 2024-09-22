@@ -19,6 +19,9 @@ export default {
         VeryDarkViolet: "hsl(270, 9%, 17%)",
         DarkGrayishViolet: "hsl(273, 4%, 51%)",
         VeryLightGray: "hsl(0, 0%, 98%)",
+      },
+      backgroundImage : {
+        "navMenu" : "url('./src/assets/images/bg-pattern-mobile-nav.svg')"
       }
     }
   },
