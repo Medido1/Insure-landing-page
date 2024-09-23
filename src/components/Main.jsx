@@ -1,4 +1,5 @@
 import Benefit from "./Benfit";
+import HowWeWork from "./HowWeWork";
 import {benefitsList} from "../../data";
 import { useState } from "react";
 
@@ -17,6 +18,7 @@ function Main() {
           return <Benefit key={benefit.id} data={benefit}/>
         })}
       </div>
+      <HowWeWork />
     </main>
   )
 }
