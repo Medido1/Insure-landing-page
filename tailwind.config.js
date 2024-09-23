@@ -24,6 +24,7 @@ export default {
         "navMenu" : "url('./src/assets/images/bg-pattern-mobile-nav.svg')",
         "mobileIntroLeft": "url('./src/assets/images/bg-pattern-intro-left-mobile.svg')",
         "mobileIntroRight": "url('./src/assets/images/bg-pattern-intro-right-mobile.svg')",
+        "workMobile": "url('./src/assets/images/bg-pattern-how-we-work-mobile.svg')"
       }
     }
   },
