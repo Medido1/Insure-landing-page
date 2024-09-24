@@ -10,7 +10,7 @@ function HeaderIntro({isMobile}) {
       {!isMobile && 
         <div className='border w-1/6 border border-gray-500 opacity-80 mb-10'></div>
       }
-      <h1 className="text-5xl text-white mb-2 lg:w-1/3">
+      <h1 className="text-5xl text-white mb-2 font-bold sm:text-6xl lg:w-1/3">
         Humanizing your insurance
       </h1>
       <p className="text-VeryLightGray text-sm font-thin leading-6 lg:w-1/3">

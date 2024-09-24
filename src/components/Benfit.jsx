@@ -1,6 +1,6 @@
 function Benefit({data}) {
   return (
-    <div className="flex flex-col items-center mb-4
+    <div className="flex flex-col items-center mb-4 max-w-80
       sm:w-1/2 
       lg:items-start lg:text-left
     ">
