@@ -29,4 +29,27 @@ const benefitsList = [
   }
 ]
 
-export {benefitsList}
+const footerNav = [
+  {
+    id: 1,
+    title: "OUR COMPANY",
+    links: ["HOW WE WORK", "WHY INSURE", "CHECK PRICE", "REVIEWS"]
+  },
+  {
+    id:2,
+    title: "HELP ME",
+    links: ["FAQ", "TERMS OF USE", "PRIVACY POLICY", "COOKIES"]
+  },
+  {
+    id:3,
+    title: "CONTACT",
+    links: ["SALES", "SUPPORT", "LIVE CHAT"]
+  },
+  {
+    id:4,
+    title: "OTHERS",
+    links: ["CAREERS", "PRESS", "LICENSES"]
+  }
+]
+
+export {benefitsList, footerNav}

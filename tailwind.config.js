@@ -25,6 +25,7 @@ export default {
         "mobileIntroLeft": "url('./src/assets/images/bg-pattern-intro-left-mobile.svg')",
         "mobileIntroRight": "url('./src/assets/images/bg-pattern-intro-right-mobile.svg')",
         "workMobile": "url('./src/assets/images/bg-pattern-how-we-work-mobile.svg')",
+        "mobileFooter": "url('./src/assets/images/bg-pattern-footer-mobile.svg')",
       }
     }
   },
