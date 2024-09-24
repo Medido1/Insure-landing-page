@@ -1,8 +1,51 @@
-# React + Vite
+# Frontend Mentor - Insure landing page solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8).
+## Table of contents
 
-Currently, two official plugins are available:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Links
+
+- Solution URL: [solution](https://github.com/Medido1/Insure-landing-page)
+- Live Site URL: [live site](https://insurelandingpagemedido.netlify.app/)
+
+### Screenshot
+
+  ## Desktop 
+  ![](./src/assets/screenshots/desktopss.png)
+
+  ## Mobile 
+  ![](./src/assets/screenshots/mobiless.png)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- CSS Grid
+- React
+- Tailwindcss
+
+## Author
+
+- Frontend Mentor - [@Medido1](https://www.frontendmentor.io/profile/Medido1)
+- GitHub - [@Medido1](https://github.com/Medido1)

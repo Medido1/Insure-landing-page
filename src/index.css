@@ -2,13 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+button {
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}
+
 .bg-mobileIntro {
   background-image: 
-  url('./assets/images/bg-pattern-intro-left-mobile.svg'), url('./assets/images/bg-pattern-intro-right-mobile.svg');
+  url('./assets/images/bg-pattern-intro-left-mobile.svg'), 
+  url('./assets/images/bg-pattern-intro-right-mobile.svg');
   background-position: left top, right 340%;
   background-repeat: no-repeat, no-repeat;
 }
 
 .workMobile {
   background-position: 100% -10%;
+}
+
+@media (min-width:640px) {
+  .workMobile {
+    background-position: 120% -10%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-mobileIntro {
+    background-image: 
+    url('./assets/images//bg-pattern-intro-left-desktop.svg'), 
+    url('./assets/images/bg-pattern-intro-right-desktop.svg');
+    background-position: 0% -750%, right;
+  }
+ 
 }
