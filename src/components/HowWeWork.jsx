@@ -1,7 +1,7 @@
 function HowWeWork() {
   return (
     <div 
-      className="py-20 px-5 text-center bg-DarkViolet mt-40
+      className="py-24 px-5 text-center bg-DarkViolet mt-40
       bg-workMobile bg-no-repeat bg-right-top
       sm:w-3/4 lg:w-3/2 
       lg:flex lg:items-center lg:justify-between lg:text-left lg:px-10 lg:h-16

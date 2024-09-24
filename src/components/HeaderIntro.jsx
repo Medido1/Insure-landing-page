@@ -1,14 +1,15 @@
 import '../index.css';
 
-
-
-function HeaderIntro() {
+function HeaderIntro({isMobile}) {
   return (
     <div 
-    className="py-20 px-5 text-center bg-DarkViolet font-DMSerif
+    className="py-40 px-5 text-center bg-DarkViolet font-DMSerif
       bg-mobileIntro 
       lg:text-left  lg:self-start lg:px-20
     ">
+      {!isMobile && 
+        <div className='border w-1/6 border border-gray-500 opacity-80 mb-10'></div>
+      }
       <h1 className="text-5xl text-white mb-2 lg:w-1/3">
         Humanizing your insurance
       </h1>

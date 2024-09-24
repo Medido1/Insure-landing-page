@@ -38,9 +38,9 @@ function Header({isMobile}) {
         '>
           <img src={isMobile ? introImgMobile : introImgDesktop} alt="family members holding hands" 
             className='sm:mt-10
-              lg:absolute lg:right-20 lg:h-3/4'
+              lg:absolute lg:right-20'
           />
-          <HeaderIntro />
+          <HeaderIntro isMobile={isMobile}/>
         </div>
       }
   </header>
